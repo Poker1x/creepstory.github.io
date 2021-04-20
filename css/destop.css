@@ -1,0 +1,10 @@
+#app {
+  display: flex;
+}
+#app .sidebar {
+  width : 35%;
+  margin-left : -10px;
+}
+#app .list-post {
+  width : 65%;
+}

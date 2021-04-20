@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+:root {
+  --body: #292a2d;
+  --header: #252627;
+  --color: #a9a9b3;
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  background: var(--body);
+  color : var(--color);
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color : var(--color);
+}
+#app {
+  margin-top: 30px;
+}
+header {
+  background : var(--header);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+header .bar div {
+  width: 25px;
+  height: 2px;
+  margin: 4px 0;
+  background: var(--color)
+}
+footer {
+  color : #888888;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+  font-weight: 600;
+  border-top: 1px solid var(--color);
+  margin-top: 30px;
+}
+.list-post {
+  margin: 15px;
+  border : 1px solid var(--color);
+  border-radius : 5px;
+}
+.list-post .title {
+  background : #555555;
+  padding: 10px;
+  color : black;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.list-post .list {
+  padding : 10px;
+}
+.list-post .list:not(:last-child) {
+  border-bottom : 1px solid var(--color);
+}
+.list-post .list .name {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.list-post .list .time {
+  margin: 5px 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  display: inline-block;
+}
+.list-post .list .des {
+  padding: 10px;
+  font-size: 17px;
+}
+.page {
+  margin: 15px;
+  border : 1px solid var(--color);
+  border-radius : 5px;
+}
+.page .head {
+  padding: 15px;
+  border-bottom : 1px solid var(--color);
+}
+.page .head .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.page .content {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.page .time {
+  padding: 5px 15px;
+  font-size: 16px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  display: inline-block;
+}
+.page .author {
+  padding : 5px 0px;
+}
+.page .author span {
+  font-weight: bold;
+  font-size: 18px;
+}
